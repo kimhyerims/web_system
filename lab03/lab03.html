@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>HTML + CSS 실습 5</title> 
+	<link rel="stylesheet" href="lab03.css">
+</head>
+<body>
+	<div id="wrapper">
+	<header id="top_header">
+        <hgroup id="title">
+            <h1>요즘 잘 쓰는 물건들</h1>
+            <p>내돈내산.. </p>
+        </hgroup>
+        <nav >
+			<ul id="navi">
+				<li><a href="#">Menu 1 </a>
+					<ul class="submenu">
+					<li><a href="#">Sub Menu1-1</a></li>
+					<li><a href="#">Sub Menu1-2</a></li>
+				  	</ul>
+				</li>
+				<li><a href="#">Menu 2 </a>
+					<ul class="submenu">
+					<li><a href="#">Sub Menu 2-1</a></li>
+					<li><a href="#">Sub Menu 2-2</a></li>
+				  	</ul>
+				</li>
+				<li><a href="#">Menu 3 </a>
+				</li>
+				<li><a href="#">Menu 4 </a>
+				</li>
+				
+			</ul>
+        </nav>
+    </header>
+		<aside id="login">
+			<form>
+				<label for="user">아이디</label>
+				<input type="text" id="user" size="15"><br>
+				<label for="pass">비밀번호</label>
+				<input type="password" id="pass" size="15"><br>
+				<input type="submit" value="로그인">
+				<input type="button" value="회원가입">
+			</form>			
+		</aside>
+		
+		<section id="post">
+			<article>
+                <div class="card">
+                    <header>
+                      <h3>텀블러</h3>
+                    </header>
+                    <figure>
+                      <img src="텀블러.jpg">
+                    </figure>
+                    <p>물을 많이 마시는데 도움이 되고 환경도 지킬 수 있어서 좋다.</p>
+                  </div> 
+			</article>
+			<article>
+                <div class="card">
+                    <header>
+                      <h3>작은 백팩</h3>
+                    </header>
+                    <figure>
+                      <img src="백팩.jpg">
+                    </figure>
+                    <p>놀러갈때, 간단하게 공부할때 항상 들고 다닌다. 생각보다 물건이 정말 많이 들어간다! 많은 옷에 잘 어울린다.</p>
+                </div> 
+            </article>
+			<article>
+                <div class="card">
+                    <header>
+                      <h3>노트북 받침대</h3>
+                    </header>
+                    <figure>
+                      <img src="받침대.jpg">
+                    </figure>
+                    <p>이거 없으면 노트북 못쓰는 정도! 거북목 방지에 큰 도움이 된다. 가벼운 제품을 사면 들고다니기에도 무리가 없다.</p>
+                </div> 
+			</article>
+		</section>
+		<aside id="ad">
+			<article class="inform">
+				<p>숙명여자대학교</p>
+				<p><img src="sm_logo.png" width="170"></p>
+				<p>소프트웨어학부<br>웹시스템설계</p>
+			</article>
+			<br>
+			<article class="add">
+				<p>ABC 쇼핑몰</p>
+				<p><img src="cake.jpg"></p>
+				<p>10% 할인 이벤트<br>	무료 배송</p>
+			</article>
+		</aside>
+	</div>
+	<footer>
+		<nav id="foot">
+			<ul>
+				<li><a href="#">회사 소개</a>
+				<li><a href="#">대표이사 인사말</a>
+				<li><a href="#">오시는 길</a>
+				<li><a href="#">광고주를 모집합니다.</a>
+			</ul>
+		</nav>	
+	</footer>
+</body>
+</html>
+
+

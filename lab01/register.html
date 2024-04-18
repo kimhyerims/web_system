@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김혜림</title>
+</head>
+<body>
+    <h2>동아리 가입 양식</h2>
+    <form>
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name"><br/>
+        <label for="major">학부/학과</label>
+        <select id="major" name="major">
+            <option value="software">소프트웨어학부</option>
+            <option value="statistics">통계학과</option>
+            <option value="chemicals">화학과</option>
+            <option value="mathmetics">수학과</option>
+        </select><br/>
+        <label for="grade">학년</label>
+        <input type="radio" id="1학년" name="my_grade" value="1학년">
+        <label for="1학년">1학년</label>
+        <input type="radio" id="2학년" name="my_grade" value="2학년">
+        <label for="2학년">2학년</label>
+        <input type="radio" id="3학년" name="my_grade" value="3학년">
+        <label for="3학년">3학년</label>
+        <input type="radio" id="4학년" name="my_grade" value="4학년">
+        <label for="4학년">4학년</label><br/>
+        <label for="number">학번</label>
+        <input type="text" id="number" name="number"><br/>
+        <label for="email">이메일</label>
+        <input type="email" id="email" name="email"><br/>
+        <label for="phone">전화번호</label>
+        <input type="text" id="phone" name="phone"><br/>
+        <label for="reason">가입동기</label>
+        <textarea name="reason" rows="5" cols="20"></textarea><br/>
+        <input type="submit" value="가입하기">
+        <input type="reset" value="취소하기">
+    </form>
+</body>
+</html>
