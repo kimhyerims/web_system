@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function grade(score){
+            if(score>=90){
+                myGrade="A";
+            }
+            else if(score<90 && score>=80){
+                myGrade="B";
+            }
+            else if(score<80 && score>=70){
+                myGrade="C";
+            }
+            else if(score<70 && score>=60){
+                myGrade="D";
+            }
+            else if(score<60){
+                myGrade="F";
+            }
+            document.write("입력한 점수 "+score+"는"+myGrade+"학점입니다")
+    }
+        let score=prompt("점수를 입력하세요");
+        grade(score);
+    </script>
+</body>
+</html>
